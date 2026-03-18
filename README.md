@@ -200,23 +200,6 @@ results_accurate = retrieve(query, corpus_emb, texts, dim=384)
 
 ---
 
-## File structure
-
-```
-matryoshka-rag/
-├── finetune.py          # MRL fine-tuning pipeline
-├── evaluate.py          # Recall@1, Recall@3, latency at all dims
-├── rag.py               # FAISS retrieval at variable dimension
-├── matryoshka-bge-small-finance/  # saved model weights
-│   ├── model.safetensors
-│   ├── config.json
-│   ├── tokenizer.json
-│   └── ...
-└── README.md
-```
-
----
-
 ## Simplifications vs production
 
 | Aspect | This project | Production |
