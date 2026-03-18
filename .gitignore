@@ -1,0 +1,58 @@
+2.4
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+ 
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ 
+# Jupyter / Kaggle notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+ 
+# Model weights — push to HuggingFace Hub instead
+*.safetensors
+*.bin
+*.pt
+*.pth
+ 
+# Model folders — push to HuggingFace Hub instead
+matryoshka-bge-small-finance/
+matryoshka-bge-small-finance-epoch-*/
+checkpoint-*/
+ 
+# HuggingFace cache
+~/.cache/huggingface/
+ 
+# Dataset cache
+~/.cache/datasets/
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+ 
+# Logs and outputs
+*.log
+runs/
+wandb/
+ 
+# Secrets
+.env
+*.key
+ 

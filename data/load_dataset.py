@@ -34,6 +34,7 @@ def load_fiqa_pairs() -> list[tuple]:
 pairs = load_fiqa_pairs()
 print(f"\n Total pairs: {len(pairs)}")
 
+
 def deduplicate_pairs(pairs: list[tuple],
                       model: SentenceTransformer,
                       threshold: float = 0.85) -> list[tuple]:
